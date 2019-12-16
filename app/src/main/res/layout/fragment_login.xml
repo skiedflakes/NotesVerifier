@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.jay.notesverifier.Fragments.Login_frag"
+    android:background="#ecebeb">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp"
+
+
+
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/qr_logo2"
+            android:layout_marginBottom="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fe_username"
+            android:hint=" Username"
+            android:drawableLeft="@drawable/icon_username"
+            android:drawableStart="@drawable/icon_username"
+            android:textColor="#151515"
+            android:textColorHint="#585555"
+            android:backgroundTint="#585555"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fe_password"
+            android:hint=" Password"
+            android:drawableLeft="@drawable/icon_password"
+            android:drawableStart="@drawable/icon_password"
+            android:textColorHint="#585555"
+            android:textColor="#151515"
+            android:backgroundTint="#585555"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/fb_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#0C7CC6"
+            android:text="Log In"
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © WDysolutions™. All rights reserved."
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#706F6F"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

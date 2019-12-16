@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jay.notesverifier.Fragments.Results">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#ecebeb">
+
+
+               <TextView
+                   android:layout_marginTop="20dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/tv_status"
+                   android:gravity="center_horizontal"
+                   android:textSize="40dp"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_doc_type"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal"
+
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_doc_number"
+            android:textSize="15dp"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+
+           />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_amount"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_check_num"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_check_date"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
